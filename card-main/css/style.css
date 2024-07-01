@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#card_image {
+    width: 22rem;
+    height: 14rem;
+    border-radius: 20px;
+    transform: scale(1.5); 
+    transition: transform 0.3s ease;
+}
+
+
+
+#imagem {
+    width: 22rem;
+    height: 14rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card {
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 1px 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.textos {
+    width: 22rem;
+    display: none;
+}
+
+#paragrafo {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#titulo {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#meuBotao {
+    background-color: #149cec;
+    width: 22rem;
+    height: 3rem;
+    border-radius: 9px;
+    color: antiquewhite;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
